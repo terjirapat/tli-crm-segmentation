@@ -1,0 +1,8 @@
+PARTY_ID_COLUMN: party_rk
+# PARTY_ID_COLUMN: index
+S3_MODEL_PATH: s3://tli-crm-segmentation/data-zones/neutral/artifact/model
+CUSTOMER_GROUP:
+    0anp: feature_normalized_0anp.csv
+    99pct: feature_normalized_99pct.csv
+    1hold: feature_normalized_1hold.csv
+    other: feature_normalized_other.csv

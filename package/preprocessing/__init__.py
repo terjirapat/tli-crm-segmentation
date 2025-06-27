@@ -1,0 +1,1 @@
+CONFIG_PATH = 'package/preprocessing/preprocessing.config.yaml'

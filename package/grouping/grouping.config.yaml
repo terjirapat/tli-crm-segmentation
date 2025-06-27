@@ -1,0 +1,30 @@
+PARTY_ID_COLUMN: party_rk
+
+FEATURE_INPUT:
+    # - policy_count_saving
+    # - total_premium_saving
+    # - policy_count_wholelife
+    # - total_premium_wholelife
+    # - is_bene_parent
+    # - is_bene_child
+    # - is_bene_spouse
+    # - policy_count_health
+    # - total_premium_health
+    # - policy_count_ci
+    # - total_premium_ci
+    # - total_premium
+    # - bin_total_premium
+    - bin_total_premium_saving
+    - bin_total_premium_wholelife
+    - bin_total_premium_health
+    - bin_total_premium_ci
+    - group_bene_parent
+    - group_bene_spouse
+    - group_bene_childspouse
+    - group_bene_child
+
+GROUP_INPUT:
+    - group_behavior
+    - group_family
+    - group_rider
+    # - group_lifestage

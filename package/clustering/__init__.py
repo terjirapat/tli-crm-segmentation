@@ -1,0 +1,1 @@
+CONFIG_PATH = 'package/clustering/clustering.config.yaml'

@@ -1,0 +1,1 @@
+CONFIG_PATH = 'package/grouping/grouping.config.yaml'
