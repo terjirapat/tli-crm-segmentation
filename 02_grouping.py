@@ -80,8 +80,8 @@ def main(conf):
 
         scaler, feature_norm_df = norm_feature(data=group_df[conf.FEATURE_INPUT])
 
-        save_file(group_df.reset_index(), f'{OUTPUT_FEATURE_PATH}/feature{group}.csv')
-        save_file(feature_norm_df.reset_index(), f'{OUTPUT_FEATURE_PATH}/feature_normalized{group}.csv')
+        save_file(group_df.reset_index(), f'{OUTPUT_FEATURE_PATH}/feature_{group}.csv')
+        save_file(feature_norm_df.reset_index(), f'{OUTPUT_FEATURE_PATH}/feature_normalized_{group}.csv')
 
         with open(f'{OUTPUT_SCALER_PATH}/scaler_{group}.pkl', 'wb') as f:
             pickle.dump(scaler, f)
